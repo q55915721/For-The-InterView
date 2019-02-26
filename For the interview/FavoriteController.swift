@@ -28,7 +28,7 @@ class FavoriteController:UICollectionViewController,UICollectionViewDelegateFlow
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.backgroundColor = .white
-        navigationItem.title = "Search Results"
+        navigationItem.title = "Favorites"
         
         setupCell()
       
