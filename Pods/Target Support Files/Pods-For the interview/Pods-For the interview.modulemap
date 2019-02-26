@@ -1,0 +1,6 @@
+framework module Pods_For_the_interview {
+  umbrella header "Pods-For the interview-umbrella.h"
+
+  export *
+  module * { export * }
+}
