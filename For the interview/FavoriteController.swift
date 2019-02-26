@@ -50,6 +50,7 @@ class FavoriteController:UICollectionViewController,UICollectionViewDelegateFlow
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier:cellid, for: indexPath) as! ResultControllerCell
         let photo = photos[indexPath.item]
         cell.photo = photo
+        cell.likeBtn.isHidden = true
         return cell
     }
     let padding:CGFloat = 16

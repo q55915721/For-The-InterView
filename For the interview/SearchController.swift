@@ -125,9 +125,9 @@ class SearchController:UIViewController {
         })
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-               NotificationCenter.default.removeObserver(self)
-    }
+//    override func viewWillDisappear(_ animated: Bool) {
+//               NotificationCenter.default.removeObserver(self)
+//    }
     
        lazy var overallStackView = UIStackView(arrangedSubviews:[ searchContentTextField,searchPerPageTextField,searchBtn])
     

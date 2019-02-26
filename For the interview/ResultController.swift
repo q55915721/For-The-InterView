@@ -51,6 +51,7 @@ class ResultController:UICollectionViewController,UICollectionViewDelegateFlowLa
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier:cellid, for: indexPath) as! ResultControllerCell
         let photo = searchData?.photos.photo[indexPath.item]
         cell.photo = photo
+        cell.likeBtn.isHidden = false
         cell.delegate = self
         return cell
     }
